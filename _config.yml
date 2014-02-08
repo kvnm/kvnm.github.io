@@ -20,6 +20,9 @@ owner:
 links:
   - title: About
     url: /about
+  - title: Drupal.org
+    url: http://drupal.org/user/kvnm
+    external: true
 #  - title: Github
 #    url: https://github.com/ColeTownsend/Balzac-for-Jekyll
 #    external: true
