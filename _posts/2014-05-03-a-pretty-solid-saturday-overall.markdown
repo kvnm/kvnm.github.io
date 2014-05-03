@@ -10,4 +10,4 @@ I've been going through my Meteor book-- just got through the chapter on routing
 
 Anyway, that reminded me that I sort of decided to blog here, so that I don't forget that Jekyll is cool. Also, so that I can have some sort of log of what I've been up to. Got a rake task set up so this is trivially easy now.
 
-Right now I'm typing this out across the table from [boehmrya](http://boehmry.net), noted internet personality, who's stuffing his stupid ugly face with Trader Joe's pizza. Auguste just came downstairs with our tickets to Eddie Izzard.
+Right now I'm typing this out across the table from [boehmrya](http://boehmrya.net), noted internet personality, who's stuffing his stupid ugly face with Trader Joe's pizza. Auguste just came downstairs with our tickets to Eddie Izzard.
