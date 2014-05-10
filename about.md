@@ -8,6 +8,6 @@ image:
   feature: soft-trees.jpg
 ---
 
-Jekyll is fun. I think I'll keep it.
+I'm a web developer currently living in Philadelphia. Most of my days involve hacking together Drupal projects for nonprofits and colleges. I really enjoy tinkering with other frameworks, though, so this blog actually runs on Jekyll. There's something really satisfying about simple solutions.
 
-But then again, other things are fun too. Like Drupal. Drupal is fun. Lot of overhead, but fun.
+Right now, when I'm not scheming about Drupaly things, I've been getting really excited about Meteor, node.js, and Phonegap. When I'm feeling less ambitious, though, my favorite things are pubs, sci-fi, and hanging out with my strange gaggle of roommates (1 fiance, 2 cats, [1 internet sensation](http://boehmrya.net)).

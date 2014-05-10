@@ -2,7 +2,7 @@ title:            Kevin McConnaughay
 tagline:          Futzing About.
 description:      I HAVE NO IDEA WHAT I'M DOING.
 #Comment out url when working locally to resolve base urls correctly
-url: http://kvnm.github.io
+url: http://kevinmcconnaughay.com
 
 # Owner/author information
 owner:
@@ -23,9 +23,9 @@ links:
   - title: Drupal.org
     url: http://drupal.org/user/2728113
     external: true
-#  - title: Github
-#    url: https://github.com/ColeTownsend/Balzac-for-Jekyll
-#    external: true
+  - title: Github
+    url: https://github.com/kvnm
+    external: true
 #  - title: Cole Who?
 #    url: http://coletownsend.com
 #    external: true
