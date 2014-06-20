@@ -2,7 +2,7 @@ title:            Kevin McConnaughay
 tagline:          Futzing About.
 description:      I HAVE NO IDEA WHAT I'M DOING.
 #Comment out url when working locally to resolve base urls correctly
-url: http://kevinmcconnaughay.com
+#url: http://kevinmcconnaughay.com
 
 # Owner/author information
 owner:
@@ -18,17 +18,16 @@ owner:
 # Links to include in top navigation
 # For external links add external: true
 links:
+  - title: Blog
+    url: /blog
   - title: About
     url: /about
   - title: Drupal.org
-    url: http://drupal.org/user/2728113
+    url: https://www.drupal.org/u/kvnm
     external: true
   - title: Github
     url: https://github.com/kvnm
     external: true
-#  - title: Cole Who?
-#    url: http://coletownsend.com
-#    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
