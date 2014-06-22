@@ -1,16 +1,7 @@
 {% include head-home.html %}
 
-    <div id='bump' ng-app="portfolio">
-      <section class="article archive">
-        <article class="archive-wrap">
-            <h2><span class="bb">What I've been up to:</span></h2>
-            <ul ng-controller="PortfolioController as portfolio">
-              <li class="row" ng-repeat="item in portfolio.items">
-                <portfolio-item></portfolio-item>
-              </li>
-            </ul>
-        </article>
-      </section>
-    </div>
+  <section class="article archive" ng-app="portfolio">
+    <article class="archive-wrap" ng-view></article>
+  </section>
 
-{% include footer-home.html %}
+{% include footer.html %}
