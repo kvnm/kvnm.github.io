@@ -1,12 +1,12 @@
-<a ng-href="/#/project/{{project.path}}">
-<div class="portfolio-thumb">
-  <div class="portfolio-thumb-inner">
-    <div class="portfolio-face">
-      <img ng-src="{{project.images[0].thumb}}">
-    </div>
-    <div class="portfolio-butt">
-      <h4 class="title">{{project.name}}</h4>
+<a href ng-click="setCurrent($index)">
+  <div class="portfolio-thumb">
+    <div class="portfolio-thumb-inner">
+      <div class="portfolio-face">
+        <img ng-src="{{project.images[0].thumb}}">
+      </div>
+      <div class="portfolio-butt">
+        <h4 class="title">{{project.name}}</h4>
+      </div>
     </div>
   </div>
-</div>
 </a>

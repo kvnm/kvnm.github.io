@@ -2,7 +2,18 @@
   angular.module('portfolio.controllers', [ ])
     .controller('PortfolioCtrl', function($scope, Projects) {
       $scope.projects = Projects.all();
+
+      var current = null;
+
+      $scope.setCurrent = function(index) {
+        current = index;
+      }
+
+      $scope.isCurrent = function(index) {
+        return index === current;
+      };
     })
+    /*
     .controller('ProjectCtrl', function($scope, $routeParams, Projects) {
       $scope.project = Projects.get($routeParams.projectPath);
 
@@ -16,5 +27,6 @@
         return images[current];
       };
     })
+    */
   ;
 })();

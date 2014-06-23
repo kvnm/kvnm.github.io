@@ -1,0 +1,10 @@
+<div class="project-detail" ng-show="isCurrent($index)">
+  <div class="project-pic">
+    <img ng-src="{{project.images[0].full}}">
+  </div>
+  <div class="project-description">
+    <h3>{{project.name}}</h3>
+    {{project.description}}
+  </div>
+  <a class="close-project" href ng-click="setCurrent(null)">X</a>
+</div>

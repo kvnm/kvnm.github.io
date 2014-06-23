@@ -1,9 +1,15 @@
 (function(){
-  angular.module('portfolio', ['portfolio.controllers', 'portfolio.services', 'ngRoute'])
+  angular.module('portfolio', ['portfolio.controllers', 'portfolio.services'])
     .directive("portfolioItem", function() {
       return {
         restrict: 'E',
         templateUrl: 'angular/portfolio-item.html'
+      };
+    })
+    .directive("portfolioItemDetail", function() {
+      return {
+        restrict: 'E',
+        templateUrl: 'angular/portfolio-item-detail.html'
       };
     })
     /*
@@ -14,7 +20,9 @@
           }
         }
     })
-    */
+    
+
+    ! include ngRoute above if using !
     .config(function($routeProvider) {
       $routeProvider
         .when('/', {
@@ -26,5 +34,6 @@
           controller: 'ProjectCtrl'
         });
     })
+    */
   ;
 })();

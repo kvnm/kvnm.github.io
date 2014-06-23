@@ -10,7 +10,7 @@
             { full: 'product01-image02-full.jpg', thumb: 'product01-image02-thumb.jpg' },
             { full: 'product01-image03-full.jpg', thumb: 'product01-image03-thumb.jpg' },
           ],
-          description: "This product is awesome!",
+          description: "<p>This product is awesome!</p>",
           specifications: "Filled with Awesome",
           reviews: [
             { body: "This product is awesome!", stars: 5, author: "fanboy@apple.com" },
@@ -22,7 +22,7 @@
             { full: 'angular/images/bala.jpg', thumb: 'angular/images/bala-thumb.jpg' },
             { full: 'product02-image02-full.jpg', thumb: 'product02-image02-thumb.jpg' },
           ],
-          description: "This product is ALSO awesome!",
+          description: "<p>This product is ALSO awesome!</p>",
           specifications: "Filled with Awesome",
           reviews: [ ]
         },
@@ -92,6 +92,9 @@
               return projects[i];
             }
           }
+        },
+        getId: function(index) {
+          return projects[index];
         }
       }
     })

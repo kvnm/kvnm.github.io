@@ -1161,3 +1161,83 @@ h2.portfolio-title { margin-bottom: 1em; }
 .portfolio-thumb-inner:hover .portfolio-butt {
   opacity: 1;
 }
+
+.project-detail {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 800px;
+  height: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  background: #5c4b51;
+  z-index: 6000;
+  -webkit-transform: translateX(00px);
+  -moz-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  -o-transform: translateX(0px);
+  transform: translateX(0px);
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.project-pic {
+  position: relative;
+}
+.project-pic img {
+  width: 100%;
+  display: block;
+}
+.project-description {
+  padding: 4em;
+  -webkit-transform: translateY(-80px);
+  -moz-transform: translateY(-80px);
+  -ms-transform: translateY(-80px);
+  -o-transform: translateY(-80px);
+  transform: translateY(-80px);
+  color: #d7cfd2;
+}
+.project-description h3 {
+  color: #fff;
+}
+.project-detail .project-pic::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: -webkit-linear-gradient( bottom , #5c4b51, rgba(92, 75, 81, 0));
+  background: linear-gradient(to top, #5c4b51, rgba(92, 75, 81, 0));
+}
+main {
+  position: relative;
+  z-index: 2;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+a.close-project {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  position: fixed;
+  background: url("close-project.svg") no-repeat center center #5c4b51;
+  text-indent: 100%;
+  white-space: nowrap;
+  z-index: 3;
+  display: none;
+  right: 20px;
+  top: 20px;
+  display: block;
+  -webkit-animation: cd-move-in 0.8s;
+  -moz-animation: cd-move-in 0.8s;
+  animation: cd-move-in 0.8s;
+  box-shadow: 0px 0px 25px 15px #5c4b51;
+}

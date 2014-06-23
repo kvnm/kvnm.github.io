@@ -1,7 +1,46 @@
 {% include head-home.html %}
 
-  <section class="article archive" ng-app="portfolio">
-    <article class="archive-wrap" ng-view></article>
-  </section>
+  <body class="" ng-app="portfolio">
+    <main ng-controller="PortfolioCtrl">
+      <div id="bump">
+        <header class="site-header darken">
+          <div class="wrap">
+            <hgroup>
+              <h1><a href="/">{{ site.title }}</a></h1>
+            </hgroup>
+            <a href="#nav" class="menu"><span class='icons'>☰</span></a>
+            <nav role="navigation">
+              <ul>
+                <li>
+                  <a href="/" title="{{ site.title }}">Home</a>
+                </li>
+                
+                {% for link in site.links %}
+                    <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+                {% endfor %}
 
-{% include footer.html %}
+              </ul>
+            </nav>
+          </div>
+        </header>
+      </div>
+
+      <section class="article archive">
+        <article class="archive-wrap">
+          <div class="portfolio-canvas">
+            <h2 class="portfolio-title"><span class="bb">What I've been up to:</span></h2>
+            <ul class="portfolio-list">
+              <li class="row" ng-repeat="project in projects">
+                <portfolio-item></portfolio-item>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
+
+      <section class="portofolio-detail" ng-repeat="project in projects">
+        <portfolio-item-detail></portfolio-item-detail>
+      </section>
+    </main>
+
+{% include footer-home.html %}
