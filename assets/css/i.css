@@ -1114,7 +1114,7 @@ footer .social ul li:last-child {
   }
 }
 
-ul.portfolio-list { margin-top: 2.5em; }
+h2.portfolio-title { margin-bottom: 1em; }
 
 .portfolio-thumb {
   float: left;

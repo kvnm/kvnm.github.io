@@ -1,4 +1,12 @@
 <div class="project-canvas">
-  <h2><span class="bb">{{project.name}}</span></h2>
-  <img ng-src="{{project.images[0].full}}">
+  <h2 class="portfolio-title"><span class="bb">{{project.name}}</span></h2>
+  <section class="images clearfix">
+    <span class="pull-right thumbnail"> <img class="full" ng-src="{{project.getCurrent(project.images).full}}"> </span>
+    <ul class="list-unstyled pull-left">
+      <li ng-repeat="image in project.images">
+        <a href ng-click="project.setCurrent($index)" class="thumbnail">
+          <img class="thumb" ng-src="{{image.thumb}}">
+        </a>
+    </ul>
+  </section>
 </div>

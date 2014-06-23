@@ -26,7 +26,7 @@
           specifications: "Filled with Awesome",
           reviews: [ ]
         },
-        { name: 'College of Health Professions & Social Work', path: 'temple-college-health-professions-social-work',
+        { name: 'Temple Health Professions & Social Work', path: 'temple-college-health-professions-social-work',
           images: [
             { full: 'angular/images/chpsw.jpg', thumb: 'angular/images/chpsw-thumb.jpg' },
             { full: 'product02-image02-full.jpg', thumb: 'product02-image02-thumb.jpg' },
