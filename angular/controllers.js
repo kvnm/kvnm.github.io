@@ -12,6 +12,12 @@
       $scope.isCurrent = function(index) {
         return index === current;
       };
+
+      $scope.haveDetail = function() {
+        if (current !== null) {
+          return true;
+        }
+      }
     })
     /*
     .controller('ProjectCtrl', function($scope, $routeParams, Projects) {
