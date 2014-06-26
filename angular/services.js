@@ -11,6 +11,13 @@
           description: "<p>I've been working with AFSC once a week for about a year. We've made a good number of adjustments to their main site at <a href=\"http://afsc.org\">AFSC.org</a> and done some cool micro-projects. The pic above is from <a href=\"http://afsc.org/boycott/\">Boycott!</a>, a microsite devoted to a travelling poster exhibition.</p>",
           tags: [ 'Drupal', 'Bootstrap', 'Drupal 6' ]
         },
+        { name: 'Splash Block', path: 'splash-block', url: 'http://www.drupal.org/project/splash_block',
+          images: [
+            { full: 'angular/images/sb.jpg', thumb: 'angular/images/sb-thumb.jpg' },
+          ],
+          description: "<p>Splash Block is a small Drupal module I wrote that allows admins to \"splash\" popups by using the Blocks UI. It creates a new region in any theme (called Splash), to which blocks can be added. This allows for admins to pick and choose which splash content shows up on which pages, using Drupal core's block visibility rules.</p>",
+          tags: [ 'Drupal', 'Drupal 7', 'Module' ]
+        },
         { name: 'BALA', path: 'bala', url: 'http://bala.com',
           images: [
             { full: 'angular/images/bala.jpg', thumb: 'angular/images/bala-thumb.jpg' },
@@ -52,6 +59,20 @@
             { full: 'product02-image02-full.jpg', thumb: 'product02-image02-thumb.jpg' },
           ],
           description: "<p>We've done a few sites for Penn Medicine. The pic above is from their internal Your Big Idea challenge.</p>",
+          tags: [ 'Drupal', 'Drupal 6', 'Theming' ]
+        },
+        { name: 'CharterScale', path: 'charter-scale', url: 'http://charterscale.org/',
+          images: [
+            { full: 'angular/images/cs.jpg', thumb: 'angular/images/cs-thumb.jpg' },
+          ],
+          description: "<p>An online tool for finding and comparing Charter Schools in the Chicago area.</p>",
+          tags: [ 'Drupal', 'Drupal 7' ]
+        },
+        { name: 'Women\'s World Banking Leadership Community', path: 'wwb',
+          images: [
+            { full: 'angular/images/wwb.jpg', thumb: 'angular/images/wwb-thumb.jpg' },
+          ],
+          description: "<p>Implemented a brand new theme for WWB's internal Leadership Community.</p>",
           tags: [ 'Drupal', 'Drupal 6', 'Theming' ]
         },
         { name: 'Institute for Safe Families', path: 'insitute-for-safe-families', url: 'http://instituteforsafefamilies.org/',

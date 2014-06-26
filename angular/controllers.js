@@ -19,6 +19,12 @@
         }
       }
 
+      $scope.haveDetailAndSite = function(current) {
+        if ((current !== null) && ($scope.projects[current].url)) {
+          return true;
+        }
+      }
+
       $scope.goToSite = function(current) {
         window.open($scope.projects[current].url);
       }
