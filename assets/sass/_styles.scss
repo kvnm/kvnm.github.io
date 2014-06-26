@@ -744,6 +744,21 @@ h2.portfolio-title { margin-bottom: 1em; }
       color: $white;
       margin-bottom: 5px;
     }
+
+    small {
+        font-size: ($fs6);
+        text-align: center;
+        display: block;
+        width: 100%;
+        position: absolute;
+        bottom: 8px;
+        font-family: $sans;
+        text-transform: uppercase;
+        color: transparentize($white, .9);
+        a {
+            color: transparentize($white, .7);
+        }
+    }
   }
 }
 

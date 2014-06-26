@@ -864,6 +864,18 @@ h2.portfolio-title {
     .project-detail .project-description h3 {
       color: #f9f9f9;
       margin-bottom: 5px; }
+    .project-detail .project-description small {
+      font-size: 12px;
+      text-align: center;
+      display: block;
+      width: 100%;
+      position: absolute;
+      bottom: 8px;
+      font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+      text-transform: uppercase;
+      color: rgba(249, 249, 249, 0.1); }
+      .project-detail .project-description small a {
+        color: rgba(249, 249, 249, 0.3); }
 
 main {
   position: relative;
