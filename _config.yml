@@ -1,8 +1,8 @@
 title:            Kevin McConnaughay
 tagline:          Futzing About.
-description:      I HAVE NO IDEA WHAT I'M DOING.
+description:      Talking Drupal- among other things.
 #Comment out url when working locally to resolve base urls correctly
-#url: http://kevinmcconnaughay.com
+url: http://kevinmcconnaughay.com
 
 # Owner/author information
 owner:
