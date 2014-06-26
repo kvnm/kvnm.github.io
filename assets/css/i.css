@@ -838,6 +838,7 @@ h2.portfolio-title {
 .project-detail {
   position: fixed;
   overflow-y: auto;
+  overflow-x: hidden;
   top: 0;
   right: 0;
   width: 750px;
