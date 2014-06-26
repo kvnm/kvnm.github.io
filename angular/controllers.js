@@ -3,20 +3,24 @@
     .controller('PortfolioCtrl', function($scope, Projects) {
       $scope.projects = Projects.all();
 
-      var current = null;
+      $scope.current = null;
 
       $scope.setCurrent = function(index) {
-        current = index;
+        $scope.current = index;
       }
 
       $scope.isCurrent = function(index) {
-        return index === current;
+        return index === $scope.current;
       };
 
       $scope.haveDetail = function() {
-        if (current !== null) {
+        if ($scope.current !== null) {
           return true;
         }
+      }
+
+      $scope.goToSite = function(current) {
+        window.open($scope.projects[current].url);
       }
     })
     /*

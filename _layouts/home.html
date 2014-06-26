@@ -3,7 +3,8 @@
   <body class="" ng-app="portfolio">
     <main ng-controller="PortfolioCtrl">
       <div class="modal ng-hide" ng-show="haveDetail()"></div>
-      <a class="close-project ng-hide" href ng-show="haveDetail()" ng-click="setCurrent(null)">close</a>
+      <a class="close-project ng-hide" href ng-show="haveDetail()" ng-click="setCurrent(null)">X</a>
+      <a class="visit-project ng-hide" href ng-show="haveDetail()" ng-click="goToSite(current)">Launch Site</a>
       <div id="bump">
         <header class="site-header darken">
           <div class="wrap">

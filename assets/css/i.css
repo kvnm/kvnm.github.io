@@ -1167,7 +1167,7 @@ h2.portfolio-title { margin-bottom: 1em; }
   overflow-y: auto;
   top: 0;
   right: 0;
-  width: 800px;
+  width: 750px;
   height: 100%;
   -webkit-overflow-scrolling: touch;
   background: #3b3b3b;
@@ -1182,37 +1182,48 @@ h2.portfolio-title { margin-bottom: 1em; }
   display: block;
 }
 .project-description {
-  padding: 3em;
+  padding: 1.5em 3em;
   border-top: 2px solid #8ab9d1;
   color: #f9f9f9;
   background: #3b3b3b;
 }
 .project-description h3 {
   color: #fff;
+  margin-bottom: 5px;
 }
 main {
   position: relative;
   z-index: 2;
 }
-a.close-project, a.close-project:hover, a.close-project:active, a.close-project:focus, a.close-project:visited, a.close-project:link {
-  height: 32px;
-  width: 32px;
-  text-indent: -9999px;
+a.visit-project, a.visit-project:link, a.visit-project:visited, 
+a.close-project, a.close-project:link, a.close-project:visited {
   position: fixed;
-  background: url("close-project.svg") no-repeat center center;
   white-space: nowrap;
   z-index: 60001;
-  right: 820px;
-  top: 20px;
-  transition: none;
+  right: 770px;
+  top: 80px;
   display: -webkit-box;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
 }
-.project-detail.ng-hide-remove, .close-project.ng-hide-remove {
+a.close-project, a.close-project:link, a.close-project:visited {
+  top: 20px;
+  font-size: 40px;
+}
+a.visit-project:hover, a.visit-project:active, a.visit-project:focus,
+a.close-project:hover, a.close-project:active, a.close-project:focus {
+  color: #8ab9d1;
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.6);
+}
+.project-detail.ng-hide-remove, .close-project.ng-hide-remove, .visit-project.ng-hide-remove {
   -webkit-animation: slideInRight .5s;
   animation: slideInRight .5s;
 }
  
-.project-detail.ng-hide-add, .close-project.ng-hide-add {
+.project-detail.ng-hide-add, .close-project.ng-hide-add, .visit-project.ng-hide-add {
   -webkit-animation: slideOutRight 1s;
   animation: slideOutRight 1s;
   display: block !important;
@@ -1227,12 +1238,12 @@ a.close-project, a.close-project:hover, a.close-project:active, a.close-project:
   z-index: 99;
 }
 .modal.ng-hide-remove {
-    -webkit-animation: fadeIn .5s;
-    animation: fadeIn .5s;
+  -webkit-animation: fadeIn .5s;
+  animation: fadeIn .5s;
 }
  
 .modal.ng-hide-add {
-    -webkit-animation: fadeOut 1s;
-    animation: fadeOut 1s;
-    display: block !important;
+  -webkit-animation: fadeOut 1s;
+  animation: fadeOut 1s;
+  display: block !important;
 }

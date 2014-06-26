@@ -1,5 +1,5 @@
 (function(){
-  angular.module('portfolio', ['portfolio.controllers', 'portfolio.services', 'ngAnimate'])
+  angular.module('portfolio', ['portfolio.controllers', 'portfolio.services', 'ngAnimate', 'ngSanitize'])
     .directive("portfolioItem", function() {
       return {
         restrict: 'E',
