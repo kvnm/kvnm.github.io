@@ -21,20 +21,20 @@
           tags: [ 'Drupal', 'Drupal 7', 'Module' ]
         },
         { published: 1, nms: 1,
-          name: 'BALA', path: 'bala', url: 'http://bala.com',
-          images: [
-            { full: 'angular/images/bala.jpg', thumb: 'angular/images/bala-thumb.jpg' },
-          ],
-          description: "<p>Lots of jQuery stuff going on here, as the navigation scheme is totally unique.</p>",
-          tags: [ 'Drupal', 'Drupal 7', 'Theming', 'jQuery' ]
-        },
-        { published: 1, nms: 1,
           name: 'Temple Health Professions & Social Work', path: 'temple-college-health-professions-social-work', url: 'http://chpsw.temple.edu',
           images: [
             { full: 'angular/images/chpsw.jpg', thumb: 'angular/images/chpsw-thumb.jpg' },
           ],
           description: "<p>Full Drupal 6 - Drupal 7 upgrade, with a brand new responsive theme.</p>",
           tags: [ 'Drupal', 'Drupal 7', 'Drupal 6', 'D6 - D7 Upgrade', 'Theming', 'Responsive' ]
+        },
+        { published: 1, nms: 1,
+          name: 'Scattergood Foundation', path: 'scattergood', url: 'http://scattergoodfoundation.org',
+          images: [
+            { full: 'angular/images/sg.jpg', thumb: 'angular/images/sg-thumb.jpg' },
+          ],
+          description: "<p>We took this project over not long after its initial launch. It quickly became clear that the existing structure wasn't workable for us, so we re-architected content creation, and made the site responsive. Also, we've done some pretty cool micro-projects, including an interactive pledge wall.</p>",
+          tags: [ 'Drupal', 'Drupal 7', 'Responsive', 'JavaScript', 'Theming' ]
         },
         { published: 1, nms: 1,
           name: 'Reconstructionist Rabbinical College', path: 'rrc', url: 'http://rrc.edu',
@@ -45,12 +45,12 @@
           tags: [ 'Drupal', 'Drupal 7', 'Drupal 6', 'D6 - D7 Upgrade', 'Theming', 'Responsive' ]
         },
         { published: 1, nms: 1,
-          name: 'Scattergood Foundation', path: 'scattergood', url: 'http://scattergoodfoundation.org',
+          name: 'BALA', path: 'bala', url: 'http://bala.com',
           images: [
-            { full: 'angular/images/sg.jpg', thumb: 'angular/images/sg-thumb.jpg' },
+            { full: 'angular/images/bala.jpg', thumb: 'angular/images/bala-thumb.jpg' },
           ],
-          description: "<p>We took this project over not long after its initial launch. It quickly became clear that the existing structure wasn't workable for us, so we re-architected content creation, and made the site responsive. Also, we've done some pretty cool micro-projects, including an interactive pledge wall.</p>",
-          tags: [ 'Drupal', 'Drupal 7', 'Responsive', 'JavaScript', 'Theming' ]
+          description: "<p>Lots of jQuery stuff going on here, as the navigation scheme is totally unique.</p>",
+          tags: [ 'Drupal', 'Drupal 7', 'Theming', 'jQuery' ]
         },
         { published: 1, nms: 1,
           name: 'Temple Health Giving', path: 'temple-health-giving', url: 'http://giving.templehealth.org/',
