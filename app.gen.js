@@ -1,4 +1,53 @@
 (function(){
+  angular.module('portfolio', ['portfolio.controllers', 'portfolio.services', 'ngAnimate', 'ngSanitize'])
+    .directive('portfolioItem', function() {
+      return {
+        restrict: 'E',
+        templateUrl: 'angular/portfolio-item.html'
+      };
+    })
+    .directive('portfolioItemDetail', function() {
+      return {
+        restrict: 'E',
+        templateUrl: 'angular/portfolio-item-detail.html'
+      };
+    })
+  ;
+})();
+(function(){
+  angular.module('portfolio.controllers', [ ])
+    .controller('PortfolioCtrl', function($scope, Projects) {
+      $scope.projects = Projects.all();
+
+      $scope.current = null;
+
+      $scope.setCurrent = function(index) {
+        $scope.current = index;
+      };
+
+      $scope.isCurrent = function(index) {
+        return index === $scope.current;
+      };
+
+      $scope.haveDetail = function() {
+        if ($scope.current !== null) {
+          return true;
+        }
+      };
+
+      $scope.haveDetailAndSite = function(current) {
+        if ((current !== null) && ($scope.projects[current].url)) {
+          return true;
+        }
+      };
+
+      $scope.goToSite = function(current) {
+        window.open($scope.projects[current].url);
+      };
+    })
+  ;
+})();
+(function(){
   angular.module('portfolio.services', [ ])
 
     .factory('Projects', function() {
