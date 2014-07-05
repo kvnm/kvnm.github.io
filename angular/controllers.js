@@ -1,7 +1,7 @@
 (function(){
   angular.module('portfolio.controllers', [ ])
-    .controller('PortfolioCtrl', function($scope, Projects) {
-      $scope.projects = Projects.all();
+    .controller('PortfolioCtrl', ['$scope', 'Projects', function($scope, Projects) {
+      $scope.projects = Projects.query();
 
       $scope.current = null;
 
@@ -28,6 +28,6 @@
       $scope.goToSite = function(current) {
         window.open($scope.projects[current].url);
       };
-    })
+    }])
   ;
 })();
