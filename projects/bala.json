@@ -1,0 +1,15 @@
+{
+  "published": 1,
+  "nms": 1,
+  "name": "BALA",
+  "id": "bala",
+  "url": "http://bala.com",
+  "images": [
+    {
+      "full": "angular/images/bala.jpg",
+      "thumb": "angular/images/bala-thumb.jpg"
+    }
+  ],
+  "description": "<p>Lots of jQuery stuff going on here, as the navigation scheme is totally unique.</p>",
+  "tags": [ "Drupal", "Drupal 7", "Theming", "jQuery" ]
+}

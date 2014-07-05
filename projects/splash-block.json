@@ -1,0 +1,15 @@
+{
+  "published": 1,
+  "nms": 0,
+  "name": "Splash Block",
+  "id": "splash-block",
+  "url": "http://www.drupal.org/project/splash_block",
+  "images": [
+    {
+      "full": "angular/images/sb.jpg",
+      "thumb": "angular/images/sb-thumb.jpg"
+    }
+  ],
+  "description": "<p>Splash Block is a small Drupal module I wrote that allows admins to \"splash\" popups by using the Blocks UI. It creates a new region in any theme (called Splash), to which blocks can be added. This allows for admins to pick and choose which splash content shows up on which pages, using Drupal core's block visibility rules.</p>",
+  "tags": [ "Drupal", "Drupal 7", "Module" ]
+}

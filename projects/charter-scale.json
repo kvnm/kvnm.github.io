@@ -1,0 +1,15 @@
+{
+  "published": 1,
+  "nms": 1,
+  "name": "CharterScale",
+  "id": "charter-scale",
+  "url": "http://charterscale.org/",
+  "images": [
+    {
+      "full": "angular/images/cs.jpg",
+      "thumb": "angular/images/cs-thumb.jpg"
+    }
+  ],
+  "description": "<p>An online tool for finding and comparing Charter Schools in the Chicago area.</p>",
+  "tags": [ "Drupal", "Drupal 7" ]
+}

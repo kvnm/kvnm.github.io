@@ -1,0 +1,15 @@
+{
+  "published": 1,
+  "nms": 1,
+  "name": "Temple Health Professions & Social Work",
+  "id": "temple-college-health-professions-social-work",
+  "url": "http://chpsw.temple.edu",
+  "images": [
+    {
+      "full": "angular/images/chpsw.jpg",
+      "thumb": "angular/images/chpsw-thumb.jpg"
+    }
+  ],
+  "description": "<p>Full Drupal 6 - Drupal 7 upgrade, with a brand new responsive theme.</p>",
+  "tags": [ "Drupal", "Drupal 7", "Drupal 6", "D6 - D7 Upgrade", "Theming", "Responsive" ]
+}

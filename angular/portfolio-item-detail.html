@@ -1,10 +1,8 @@
-<div class="project-detail ng-hide" ng-show="isCurrent($index)">
-  <div class="project-pic">
-    <img ng-src="{{project.images[0].full}}">
-  </div>
-  <div class="project-description">
-    <h3>{{project.name}}</h3>
-    <div ng-bind-html="project.description"></div>
-    <small ng-if="project.nms">Project completed as Lead Developer of <a href="http://new-media-solutions.com">New Media Solutions</a></small>
-  </div>
+<div class="project-pic">
+  <img ng-src="{{project.images[0].full}}">
+</div>
+<div class="project-description">
+  <h3>{{project.name}}</h3>
+  <div ng-bind-html="project.description"></div>
+  <small ng-if="project.nms">Project completed as Lead Developer of <a href="http://new-media-solutions.com">New Media Solutions</a></small>
 </div>

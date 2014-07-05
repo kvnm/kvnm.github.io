@@ -1,0 +1,15 @@
+{
+  "published": 1,
+  "nms": 1,
+  "name": "Penn Medicine",
+  "id": "penn-medicine",
+  "url": "http://bigidea.med.upenn.edu/",
+  "images": [
+    {
+      "full": "angular/images/med.jpg",
+      "thumb": "angular/images/med-thumb.jpg"
+    }
+  ],
+  "description": "<p>We've done a few sites for Penn Medicine. The pic above is from their internal Your Big Idea challenge.</p>",
+  "tags": [ "Drupal", "Drupal 6", "Theming" ]
+}

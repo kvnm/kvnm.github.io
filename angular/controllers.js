@@ -3,30 +3,15 @@
     .controller('PortfolioCtrl', ['$scope', 'Projects', function($scope, Projects) {
       $scope.projects = Projects.query();
 
-      $scope.current = null;
+      $scope.detailRequested = false;
 
-      $scope.setCurrent = function(index) {
-        $scope.current = index;
+      $scope.getProjectDetail = function(projectId) {
+        $scope.detailRequested = true;
+        $scope.project = Projects.get({projectId: projectId});
       };
 
-      $scope.isCurrent = function(index) {
-        return index === $scope.current;
-      };
-
-      $scope.haveDetail = function() {
-        if ($scope.current !== null) {
-          return true;
-        }
-      };
-
-      $scope.haveDetailAndSite = function(current) {
-        if ((current !== null) && ($scope.projects[current].url)) {
-          return true;
-        }
-      };
-
-      $scope.goToSite = function(current) {
-        window.open($scope.projects[current].url);
+      $scope.unsetProjectDetail = function() {
+        $scope.detailRequested = false;
       };
     }])
   ;

@@ -1,0 +1,15 @@
+{
+  "published": 0,
+  "nms": 1,
+  "name": "Institute for Safe Families",
+  "id": "insitute-for-safe-families",
+  "url": "http://instituteforsafefamilies.org/",
+  "images": [
+    {
+      "full": "angular/images/isf.jpg",
+      "thumb": "angular/images/isf-thumb.jpg"
+    }
+  ],
+  "description": "<p>Site build and theming.</p>",
+  "tags": [ "Drupal", "Drupal 6", "Theming" ]
+}

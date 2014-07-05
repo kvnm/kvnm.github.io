@@ -1,0 +1,15 @@
+{
+  "published": 1,
+  "nms": 1,
+  "name": "Scattergood Foundation",
+  "id": "scattergood",
+  "url": "http://scattergoodfoundation.org",
+  "images": [
+    {
+      "full": "angular/images/sg.jpg",
+      "thumb": "angular/images/sg-thumb.jpg"
+    }
+  ],
+  "description": "<p>We took this project over not long after its initial launch. It quickly became clear that the existing structure wasn't workable for us, so we re-architected content creation, and made the site responsive. Also, we've done some pretty cool micro-projects, including an interactive pledge wall.</p>",
+  "tags": [ "Drupal", "Drupal 7", "Responsive", "JavaScript", "Theming" ]
+}

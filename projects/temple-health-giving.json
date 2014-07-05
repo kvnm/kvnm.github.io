@@ -1,0 +1,15 @@
+{
+  "published": 1,
+  "nms": 1,
+  "name": "Temple Health Giving",
+  "id": "temple-health-giving",
+  "url": "http://giving.templehealth.org/",
+  "images": [
+    {
+      "full": "angular/images/tuh.jpg",
+      "thumb": "angular/images/tuh-thumb.jpg"
+    }
+  ],
+  "description": "<p>Site build and responsive theme.</p>",
+  "tags": [ "Drupal", "Drupal 7", "Responsive", "Theming" ]
+}

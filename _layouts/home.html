@@ -2,9 +2,8 @@
 
   <body class="" ng-app="portfolio">
     <main ng-controller="PortfolioCtrl">
-      <div class="modal ng-hide" ng-show="haveDetail()"></div>
-      <a class="close-project ng-hide" href ng-show="haveDetail()" ng-click="setCurrent(null)">X</a>
-      <!--<a class="visit-project ng-hide" href ng-show="haveDetailAndSite(current)" ng-click="goToSite(current)">Launch Site</a>-->
+      <div class="modal ng-hide" ng-show="detailRequested"></div>
+      <a class="close-project ng-hide" href ng-show="detailRequested" ng-click="unsetProjectDetail()">X</a>
       <div id="bump">
         <header class="site-header darken">
           <div class="wrap">
@@ -41,7 +40,7 @@
         </article>
       </section>
 
-      <section class="portofolio-detail" ng-repeat="project in projects" ng-if="project.published">
+      <section class="project-detail ng-hide" ng-show="detailRequested">
         <portfolio-item-detail></portfolio-item-detail>
       </section>
     </main>

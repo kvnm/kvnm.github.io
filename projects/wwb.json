@@ -1,0 +1,14 @@
+{
+  "published": 1,
+  "nms": 1,
+  "name": "Women's World Banking Leadership Community",
+  "id": "wwb",
+  "images": [
+    {
+      "full": "angular/images/wwb.jpg",
+      "thumb": "angular/images/wwb-thumb.jpg"
+    }
+  ],
+  "description": "<p>Implemented a brand new theme for WWB's internal Leadership Community.</p>",
+  "tags": [ "Drupal", "Drupal 6", "Theming" ]
+}

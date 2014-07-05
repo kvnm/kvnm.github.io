@@ -1,0 +1,15 @@
+{
+  "published": 1,
+  "nms": 1,
+  "name": "American Friends Service Committee",
+  "id": "afsc",
+  "url": "http://www.afsc.org",
+  "images": [
+    {
+      "full": "angular/images/afsc.jpg",
+      "thumb": "angular/images/afsc-thumb.jpg"
+    }
+  ],
+  "description": "<p>I've been working with AFSC once a week for about a year. We've made a good number of adjustments to their main site at <a href=\"http://www.afsc.org\" target=\"_blank\">AFSC.org</a> and done some cool micro-projects. The pic above is from <a href=\"http://www.afsc.org/boycott/\" target=\"_blank\">Boycott!</a>, a microsite devoted to a travelling poster exhibition.</p>",
+  "tags": [ "Drupal", "Bootstrap", "Drupal 6" ]
+}
