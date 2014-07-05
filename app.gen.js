@@ -28,6 +28,7 @@
 
       $scope.unsetProjectDetail = function() {
         $scope.detailRequested = false;
+        $scope.project = {};
       };
     }])
   ;
