@@ -22,8 +22,8 @@
       $scope.detailRequested = false;
 
       $scope.getProjectDetail = function(projectId) {
-        $scope.detailRequested = true;
         $scope.project = Projects.get({projectId: projectId});
+        $scope.detailRequested = true;
       };
 
       $scope.unsetProjectDetail = function() {
