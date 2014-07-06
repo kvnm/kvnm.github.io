@@ -7,7 +7,10 @@
 
       $scope.getProjectDetail = function(projectId) {
         $scope.project = Projects.get({projectId: projectId});
-        $scope.detailRequested = true;
+        $scope.project.$promise.then(function (result) {
+          $scope.project = result;
+          $scope.detailRequested = true;
+        });
       };
 
       $scope.unsetProjectDetail = function() {
