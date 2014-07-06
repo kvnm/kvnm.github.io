@@ -787,16 +787,28 @@ a.close-project {
   font-size: $fs2;
 }
 
-.project-detail.ng-hide-remove, .close-project.ng-hide-remove, .visit-project.ng-hide-remove {
+.project-detail.ng-hide-remove {
   -webkit-animation: slideInRight .5s;
   animation: slideInRight .5s;
 }
  
-.project-detail.ng-hide-add, .close-project.ng-hide-add, .visit-project.ng-hide-add {
+.project-detail.ng-hide-add {
   -webkit-animation: slideOutRight 1s;
   animation: slideOutRight 1s;
   display: block !important;
 }
+
+.close-project.ng-hide-remove {
+  -webkit-animation: fadeInDownBig .5s;
+  animation: fadeInDownBig .5s;
+}
+
+.close-project-ng-hide-add {
+  -webkit-animation: fadeOutUpBig 1s;
+  animation: fadeOutUpBig 1s;
+  display: block !important;
+}
+
 .modal {
   position: fixed;
   top: 0;
