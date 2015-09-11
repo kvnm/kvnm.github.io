@@ -31,8 +31,9 @@
         <article class="archive-wrap">
           <div class="portfolio-canvas">
             <h2 class="portfolio-title"><span class="bb">Some stuff I've been up to:</span></h2>
+            <ul><li ng-repeat="tag in allTags"><tag-checkbox></tag-checkbox></li></ul>
             <ul class="portfolio-list">
-              <li class="row" ng-repeat="project in projects" ng-if="project.published">
+              <li class="row" ng-repeat="project in projects" ng-if="project.published && hasTags(project)">
                 <portfolio-item></portfolio-item>
               </li>
             </ul>
