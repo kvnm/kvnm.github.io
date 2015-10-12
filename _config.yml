@@ -2,7 +2,7 @@ title:            Kevin McConnaughay
 tagline:          Futzing About.
 description:      Talking Tech- among other things.
 #Comment out url when working locally to resolve base urls correctly
-url: http://kevinmcconnaughay.com
+url: https://kevinmcconnaughay.com
 
 # Owner/author information
 owner:
@@ -10,10 +10,10 @@ owner:
   avatar:         avatar.png
   bio:            "It's Whatever"
   email:          kevin@kevinmcconnaughay.com
-  twitter:        kvnmcc        
-  github:         kvnm       
+  twitter:        kvnmcc
+  github:         kvnm
   # Plug in your disqus shortname!
-  
+
 
 # Links to include in top navigation
 # For external links add external: true
@@ -43,7 +43,7 @@ kramdown:
   use_coderay: false
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers:
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
