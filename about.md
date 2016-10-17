@@ -8,4 +8,4 @@ image:
   feature: oregon.jpg
 ---
 
-I'm a software developer/consultant in beautiful Portland, Oregon. Co-Founder @ [Untold Studio](https://untold.studio). Currently way into Timbers, local distilleries, and sci-fi. #1 [Blaugustesphere] (https://twitter.com/blauguste) fan.
+I'm a software developer/consultant in beautiful Portland, Oregon. Co-Founder @ [Untold Studio](https://untold.studio). Currently way into Timbers, local distilleries, and sci-fi. #1 [Blaugustesphere](https://twitter.com/blauguste) fan.
