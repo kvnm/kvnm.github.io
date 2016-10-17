@@ -8,4 +8,4 @@ image:
   feature: oregon.jpg
 ---
 
-I'm a web developer in beautiful Portland, Oregon with an organization called [Metal Toad](http://metaltoad.com). Since Portland is evidently huge on extracurriculars, I'm working hard to try new stuff and have adventures to compensate for how uninteresting I am. In my former life, I was big on pubs, sports, and Sci-Fi.
+I'm a software developer/consultant in beautiful Portland, Oregon. Co-Founder @ [Untold Studio](https://untold.studio). Currently way into Timbers, local distilleries, and sci-fi. #1 [Blaugustesphere] (https://twitter.com/blauguste) fan.
