@@ -1,6 +1,6 @@
 title:            Kevin McConnaughay
-tagline:          Futzing About.
-description:      Talking Tech- among other things.
+tagline:          Software, historically.
+description:      It was foolish to think I'd ever maintain a blog.
 #Comment out url when working locally to resolve base urls correctly
 url: https://kevinmcconnaughay.com
 
@@ -18,15 +18,18 @@ owner:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Blog
-    url: /blog
-  - title: About
-    url: /about
-  - title: Drupal.org
-    url: https://www.drupal.org/u/kvnm
-    external: true
+  # - title: Blog
+  #   url: /blog
+  # - title: About
+  #   url: /about
+  # - title: Drupal.org
+  #   url: https://www.drupal.org/u/kvnm
+  #   external: true
   - title: Github
     url: https://github.com/kvnm
+    external: true
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/mcconnaughay
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
